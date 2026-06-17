@@ -1,10 +1,11 @@
-import os
-from dotenv import load_dotenv
+import sys
 
-load_dotenv()
+try:
+    from private_config import BOT_TOKEN
+except ImportError:
+    print("Ошибка: создайте файл private_config.py с переменной BOT_TOKEN")
+    sys.exit(1)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8902146615:AAFoTo-hfvZO2gwOgL9HGqtIR4NOohuZ0k0")
-CHANNEL_ID = "@PromtTotem"          # username канала для проверки подписки
-PROMOT_CHANNEL = "https://t.me/PromtTotem"  # ссылка на канал (если понадобится)
+CHANNEL_ID = "@PromtTotem"
 ADMIN_IDS = {6136743814, 8776998479}
-ITEMS_PER_PAGE = 6                  # сколько элементов на одной странице
+ITEMS_PER_PAGE = 6
