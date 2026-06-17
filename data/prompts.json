@@ -1,0 +1,46 @@
+﻿{
+  "DeepSeek": {
+    "Ryzen": {
+      "Кодовый": [
+        {
+          "title": "Генератор Python",
+          "text": "Напиши функцию на Python для парсинга JSON.",
+          "price": 0,
+          "premium_only": false
+        }
+      ],
+      "Развлекательный": [],
+      "Для Учебы": [],
+      "Для Рецептов На Кухне": [],
+      "Для Разработки Вредоносного ПО (Софта На Игру / Рат с++)": [],
+      "Для Dox'a/Osint'a": [],
+      "Ролка": [],
+      "Запрещенка": [],
+      "е": [
+        {
+          "title": "не",
+          "text": "",
+          "price": 1,
+          "premium_only": false
+        }
+      ]
+    },
+    "Adecuad": {},
+    "Gnomo": {}
+  },
+  "Gemini": {
+    "Ryzen": {},
+    "Adecuad": {},
+    "Gnomo": {}
+  },
+  "ChatGPT": {
+    "Ryzen": {},
+    "Adecuad": {},
+    "Gnomo": {}
+  },
+  "Claude": {
+    "Ryzen": {},
+    "Adecuad": {},
+    "Gnomo": {}
+  }
+}
